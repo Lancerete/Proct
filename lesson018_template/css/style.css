@@ -1,0 +1,60 @@
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/impact.woff2");
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #040404;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.f-scrin{
+    min-height: 100vh;
+    background-image: url("../img/fScrin-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bigContainer,
+.nav_wrapper{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* position: relative; */
+}
+
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{padding-top: 25px;
+    
+    
+    background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+    /* position: absolute;
+    left: 0;
+    right: 0; */
+}
+
+.menu_list{
+    display: flex;
+    padding-top: 25px;
+    gap: 0 40px;
+    font-size: 16px;
+}
